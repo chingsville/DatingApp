@@ -32,10 +32,10 @@ import { PreventUnsavedChanges } from './_guards/prevent-unsaved-changes.guard';
 import { PhotoEditorComponent } from './members/photo-editor/photo-editor.component';
 
 
-
 export function tokenGetter() {
    return localStorage.getItem('token');
 }
+
 
 // export class CustomHammerConfig extends HammerGestureConfig  {
 //    overrides = {
@@ -57,6 +57,7 @@ export function tokenGetter() {
       MemberDetailComponent,
       MemberEditComponent,
       PhotoEditorComponent
+
    ],
    imports: [
       BrowserModule,

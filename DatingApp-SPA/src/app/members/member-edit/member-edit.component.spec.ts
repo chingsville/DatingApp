@@ -8,7 +8,7 @@ import { MemberEditComponent } from './member-edit.component';
 describe('MemberEditComponent', () => {
   let component: MemberEditComponent;
   let fixture: ComponentFixture<MemberEditComponent>;
-
+  
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [ MemberEditComponent ]
